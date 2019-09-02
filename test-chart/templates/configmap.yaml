@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: default
+  name: helm-test
+data:
+  rudeboy: "did it again bro!"

@@ -1,2 +1,4 @@
-paths:
-  - configmap.yaml
+manifests:
+  - path: configmap.yaml
+  - path: test-chart
+    type: helm
