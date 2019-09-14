@@ -1,5 +1,7 @@
 strategy: sequential
 manifests:
   - path: configmap.yaml
+    namespace: test-pizza
   - path: test-chart
+    namespace: test-pizza-2
     type: helm
